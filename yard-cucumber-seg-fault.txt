@@ -1,0 +1,713 @@
+$ rake yard --trace
+** Invoke yard (first_time)
+** Execute yard
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/templates/default/steptransformers/html/setup.rb:81: [BUG] Segmentation fault
+ruby 2.6.3p62 (2019-04-16 revision 67580) [x64-mingw32]
+
+-- Control frame information -----------------------------------------------
+c:0071 p:---- s:0366 e:000365 CFUNC  :match
+c:0070 p:---- s:0363 e:000362 CFUNC  :match
+c:0069 p:0033 s:0358 e:000357 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/templates/default/steptransformers/html/setup.rb:81
+c:0068 p:0107 s:0351 e:000349 BLOCK  <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/templates/default/steptransformers/html/transformers.er [FINISH]
+c:0067 p:---- s:0345 e:000344 IFUNC
+c:0066 p:---- s:0342 e:000341 CFUNC  :each
+c:0065 p:---- s:0339 e:000338 CFUNC  :each_with_index
+c:0064 p:0558 s:0335 e:000334 BLOCK  <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/templates/default/steptransformers/html/transformers.er [FINISH]
+c:0063 p:---- s:0331 e:000330 CFUNC  :each
+c:0062 p:0014 s:0327 e:000326 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/templates/default/steptransformers/html/transformers.er
+c:0061 p:0030 s:0322 e:000321 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:287
+c:0060 p:0034 s:0315 e:000313 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/templates/default/steptransformers/html/setup.rb:37
+c:0059 p:0106 s:0310 e:000309 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:367
+c:0058 p:0020 s:0304 e:000303 BLOCK  <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:259 [FINISH]
+c:0057 p:---- s:0298 e:000297 CFUNC  :each
+c:0056 p:0007 s:0294 e:000293 BLOCK  <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:256
+c:0055 p:0018 s:0291 e:000290 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:398
+c:0054 p:0097 s:0284 e:000283 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:255
+c:0053 p:0011 s:0274 e:000273 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:136
+c:0052 p:0148 s:0269 e:000268 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:372
+c:0051 p:0020 s:0263 e:000262 BLOCK  <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:259 [FINISH]
+c:0050 p:---- s:0257 e:000256 CFUNC  :each
+c:0049 p:0007 s:0253 e:000252 BLOCK  <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:256
+c:0048 p:0018 s:0250 e:000249 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:398
+c:0047 p:0097 s:0243 e:000242 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:255
+c:0046 p:0015 s:0233 e:000232 BLOCK  <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:277
+c:0045 p:0008 s:0230 e:000229 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:412
+c:0044 p:0008 s:0224 e:000223 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:277
+c:0043 p:0120 s:0218 e:000216 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/templates/default/layout/html/layout.erb:21
+c:0042 p:0030 s:0212 e:000211 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:287
+c:0041 p:0151 s:0205 e:000204 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/templates/default/layout/html/setup.rb:97
+c:0040 p:0106 s:0201 e:000200 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:367
+c:0039 p:0020 s:0195 e:000194 BLOCK  <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:259 [FINISH]
+c:0038 p:---- s:0189 e:000188 CFUNC  :each
+c:0037 p:0007 s:0185 e:000184 BLOCK  <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:256
+c:0036 p:0018 s:0182 e:000181 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:398
+c:0035 p:0097 s:0175 e:000174 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:255
+c:0034 p:0011 s:0165 e:000164 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:136
+c:0033 p:0014 s:0160 e:000159 BLOCK  <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/templates/default/fulldoc/html/setup.rb:35
+c:0032 p:0013 s:0157 e:000156 BLOCK  <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/engine.rb:123
+c:0031 p:0015 s:0154 e:000153 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/logging.rb:82
+c:0030 p:0067 s:0148 e:000147 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/engine.rb:121
+c:0029 p:0062 s:0140 e:000139 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/templates/default/fulldoc/html/setup.rb:34
+c:0028 p:0070 s:0135 e:000134 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/templates/default/fulldoc/html/setup.rb:17
+c:0027 p:0092 s:0131 e:000130 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:193
+c:0026 p:0034 s:0125 e:000124 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:131
+c:0025 p:0008 s:0119 e:000118 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:136
+c:0024 p:0057 s:0114 e:000113 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/engine.rb:105
+c:0023 p:0074 s:0108 e:000107 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/cli/yardoc.rb:356
+c:0022 p:0139 s:0101 e:000100 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/cli/yardoc.rb:267
+c:0021 p:0080 s:0095 e:000094 BLOCK  <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/rake/yardoc_task.rb:74
+c:0020 p:0009 s:0091 e:000090 BLOCK  <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/task.rb:273 [FINISH]
+c:0019 p:---- s:0087 e:000086 CFUNC  :each
+c:0018 p:0129 s:0083 e:000082 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/task.rb:273
+c:0017 p:0163 s:0078 e:000077 BLOCK  <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/task.rb:214
+c:0016 p:0007 s:0074 e:000073 METHOD <dir_path>/Ruby26-x64/lib/ruby/2.6.0/monitor.rb:230
+c:0015 p:0024 s:0070 e:000069 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/task.rb:194
+c:0014 p:0033 s:0063 e:000062 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/task.rb:183
+c:0013 p:0030 s:0057 e:000056 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/application.rb:160
+c:0012 p:0007 s:0049 e:000048 BLOCK  <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/application.rb:116 [FINISH]
+c:0011 p:---- s:0045 e:000044 CFUNC  :each
+c:0010 p:0037 s:0041 e:000040 BLOCK  <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/application.rb:116
+c:0009 p:0024 s:0038 e:000037 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/application.rb:125
+c:0008 p:0005 s:0033 e:000032 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/application.rb:110
+c:0007 p:0019 s:0029 e:000028 BLOCK  <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/application.rb:83
+c:0006 p:0002 s:0026 e:000025 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/application.rb:186
+c:0005 p:0014 s:0021 e:000020 METHOD <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/application.rb:80
+c:0004 p:0020 s:0016 e:000015 TOP    <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/exe/rake:27 [FINISH]
+c:0003 p:---- s:0013 e:000012 CFUNC  :load
+c:0002 p:0109 s:0008 E:002080 EVAL   <dir_path>/Ruby26-x64/bin/rake:23 [FINISH]
+c:0001 p:0000 s:0003 E:002320 (none) [FINISH]
+
+-- Ruby level backtrace information ----------------------------------------
+<dir_path>/Ruby26-x64/bin/rake:23:in `<main>'
+<dir_path>/Ruby26-x64/bin/rake:23:in `load'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/exe/rake:27:in `<top (required)>'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/application.rb:80:in `run'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/application.rb:186:in `standard_exception_handling'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/application.rb:83:in `block in run'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/application.rb:110:in `top_level'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/application.rb:125:in `run_with_threads'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/application.rb:116:in `block in top_level'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/application.rb:116:in `each'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/application.rb:116:in `block (2 levels) in top_level'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/application.rb:160:in `invoke_task'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/task.rb:183:in `invoke'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/task.rb:194:in `invoke_with_call_chain'
+<dir_path>/Ruby26-x64/lib/ruby/2.6.0/monitor.rb:230:in `mon_synchronize'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/task.rb:214:in `block in invoke_with_call_chain'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/task.rb:273:in `execute'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/task.rb:273:in `each'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/task.rb:273:in `block in execute'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/rake/yardoc_task.rb:74:in `block in define'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/cli/yardoc.rb:267:in `run'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/cli/yardoc.rb:356:in `run_generate'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/engine.rb:105:in `generate'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:136:in `run'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:131:in `new'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:193:in `initialize'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/templates/default/fulldoc/html/setup.rb:17:in `init'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/templates/default/fulldoc/html/setup.rb:34:in `serialize'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/engine.rb:121:in `with_serializer'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/logging.rb:82:in `capture'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/engine.rb:123:in `block in with_serializer'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/templates/default/fulldoc/html/setup.rb:35:in `block in serialize'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:136:in `run'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:255:in `run'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:398:in `add_options'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:256:in `block in run'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:256:in `each'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:259:in `block (2 levels) in run'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:367:in `render_section'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/templates/default/layout/html/setup.rb:97:in `layout'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:287:in `erb'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/templates/default/layout/html/layout.erb:21:in `_erb_cache_7'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:277:in `yieldall'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:412:in `with_section'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:277:in `block in yieldall'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:255:in `run'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:398:in `add_options'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:256:in `block in run'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:256:in `each'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:259:in `block (2 levels) in run'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:372:in `render_section'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:136:in `run'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:255:in `run'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:398:in `add_options'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:256:in `block in run'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:256:in `each'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:259:in `block (2 levels) in run'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:367:in `render_section'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/templates/default/steptransformers/html/setup.rb:37:in `steptransforms'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb:287:in `erb'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/templates/default/steptransformers/html/transformers.erb:3:in `_erb_cache_53'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/templates/default/steptransformers/html/transformers.erb:3:in `each'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/templates/default/steptransformers/html/transformers.erb:55:in `block in _erb_cache_53'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/templates/default/steptransformers/html/transformers.erb:55:in `each_with_index'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/templates/default/steptransformers/html/transformers.erb:55:in `each'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/templates/default/steptransformers/html/transformers.erb:62:in `block (2 levels) in _erb_cache_53'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/templates/default/steptransformers/html/setup.rb:81:in `link_transformed_step'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/templates/default/steptransformers/html/setup.rb:81:in `match'
+<dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/templates/default/steptransformers/html/setup.rb:81:in `match'
+
+-- C level backtrace information -------------------------------------------
+C:\WINDOWS\SYSTEM32\ntdll.dll(NtWaitForSingleObject+0x14) [0x00007fff4ffa5a84]
+C:\WINDOWS\System32\KERNELBASE.dll(WaitForSingleObjectEx+0x8f) [0x00007fff4caa4daf]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_vm_bugreport+0x2e1) [0x000000006a6510f1]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_bug_context+0x6d) [0x000000006a4c53dd]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_check_safe_obj+0x4d0) [0x000000006a5c57a0]
+ [0x000000000040234c]
+C:\WINDOWS\SYSTEM32\ntdll.dll(_C_specific_handler+0x96) [0x00007fff4ff96506]
+C:\WINDOWS\SYSTEM32\ntdll.dll(_chkstk+0x11d) [0x00007fff4ffaa49d]
+C:\WINDOWS\SYSTEM32\ntdll.dll(RtlImageNtHeaderEx+0x483) [0x00007fff4ff3fd43]
+C:\WINDOWS\SYSTEM32\ntdll.dll(KiUserExceptionDispatcher+0x3a) [0x00007fff4ffa960a]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(onig_vsnprintf_with_pattern+0x163a) [0x000000006a5abaca]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(onig_search_gpos+0x208) [0x000000006a5b17e8]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(onig_search+0x2d) [0x000000006a5b225d]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_reg_search0+0x13f) [0x000000006a59b20f]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_reg_search0+0x61a) [0x000000006a59b6ea]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_f_eval+0x50f) [0x000000006a63e63f]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_vm_call+0x983) [0x000000006a63f3d3]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_funcallv+0x36) [0x000000006a63f926]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_str_unlocktmp+0x112c) [0x000000006a5d936c]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_error_arity+0x136) [0x000000006a6338d6]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_check_funcall+0x1bc) [0x000000006a643a6c]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_vm_exec+0xf2) [0x000000006a63bab2]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_yield_1+0x919) [0x000000006a64a269]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_yield_values2+0x61) [0x000000006a64ac71]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_enc_foreach_name+0x6437) [0x000000006a4b8847]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_vm_bh_to_procval+0x145) [0x000000006a638525]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_yield+0x31b) [0x000000006a64b48b]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_hash_values+0x3d1) [0x000000006a4ea091]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_hash_values+0x11ac) [0x000000006a4eae6c]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(st_foreach_check+0x77) [0x000000006a5d1387]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_hash_values+0x1ac9) [0x000000006a4eb789]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_ensure+0x12b) [0x000000006a4ce84b]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_hash_rehash+0x597) [0x000000006a4ee837]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_f_eval+0x50f) [0x000000006a63e63f]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_vm_call+0x983) [0x000000006a63f3d3]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_funcall_with_block+0x8c) [0x000000006a63fa6c]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_vm_pop_cfunc_frame+0x3a4) [0x000000006a6377c4]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_block_call+0x71) [0x000000006a637ac1]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_enc_foreach_name+0x3027) [0x000000006a4b5437]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_error_arity+0x136) [0x000000006a6338d6]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_check_funcall+0x14ef) [0x000000006a644d9f]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_vm_exec+0x975) [0x000000006a63c335]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_yield+0x23f) [0x000000006a64b3af]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_ary_each+0x3d) [0x000000006a446f2d]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_error_arity+0x136) [0x000000006a6338d6]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_check_funcall+0x14ef) [0x000000006a644d9f]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_vm_exec+0xf2) [0x000000006a63bab2]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_yield+0x23f) [0x000000006a64b3af]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_ary_each+0x3d) [0x000000006a446f2d]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_error_arity+0x136) [0x000000006a6338d6]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_check_funcall+0x14ef) [0x000000006a644d9f]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_vm_exec+0xf2) [0x000000006a63bab2]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_yield+0x23f) [0x000000006a64b3af]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_ary_each+0x3d) [0x000000006a446f2d]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_error_arity+0x136) [0x000000006a6338d6]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_check_funcall+0x14ef) [0x000000006a644d9f]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_vm_exec+0x975) [0x000000006a63c335]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_yield+0x23f) [0x000000006a64b3af]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_ary_each+0x3d) [0x000000006a446f2d]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_error_arity+0x136) [0x000000006a6338d6]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_check_funcall+0x14ef) [0x000000006a644d9f]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_vm_exec+0x975) [0x000000006a63c335]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_yield+0x23f) [0x000000006a64b3af]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_ary_each+0x3d) [0x000000006a446f2d]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_error_arity+0x136) [0x000000006a6338d6]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_vm_invoke_bmethod+0x48e) [0x000000006a63cd3e]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_vm_invoke_bmethod+0xb83) [0x000000006a63d433]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_check_funcall+0x14ef) [0x000000006a644d9f]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_vm_exec+0x975) [0x000000006a63c335]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_yield+0x23f) [0x000000006a64b3af]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_ary_each+0x3d) [0x000000006a446f2d]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_error_arity+0x136) [0x000000006a6338d6]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_vm_invoke_bmethod+0x48e) [0x000000006a63cd3e]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_vm_invoke_bmethod+0xb83) [0x000000006a63d433]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_check_funcall+0x14ef) [0x000000006a644d9f]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_vm_exec+0x975) [0x000000006a63c335]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_iseqw_local_variables+0xdfc) [0x000000006a5164bc]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_iseqw_local_variables+0x111d) [0x000000006a5167dd]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_error_arity+0x136) [0x000000006a6338d6]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_vm_invoke_bmethod+0x48e) [0x000000006a63cd3e]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_vm_invoke_bmethod+0xb83) [0x000000006a63d433]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_check_funcall+0x1bc) [0x000000006a643a6c]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_vm_exec+0xf2) [0x000000006a63bab2]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(rb_call_end_proc+0x15c) [0x000000006a4c92fc]
+<dir_path>\Ruby26-x64\bin\x64-msvcrt-ruby260.dll(ruby_run_node+0x59) [0x000000006a4cd6a9]
+ [0x0000000000402d87]
+ [0x00000000004013a5]
+ [0x000000000040150b]
+C:\WINDOWS\System32\KERNEL32.DLL(BaseThreadInitThunk+0x14) [0x00007fff4f7684d4]
+
+-- Other runtime information -----------------------------------------------
+
+* Loaded script: <dir_path>/Ruby26-x64/bin/rake
+
+* Loaded features:
+
+    0 enumerator.so
+    1 thread.rb
+    2 rational.so
+    3 complex.so
+    4 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/enc/encdb.so
+    5 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/enc/trans/transdb.so
+    6 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/enc/windows_1252.so
+    7 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/rbconfig.rb
+    8 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/compatibility.rb
+    9 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/defaults.rb
+   10 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/deprecate.rb
+   11 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/errors.rb
+   12 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/version.rb
+   13 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/requirement.rb
+   14 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/platform.rb
+   15 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/basic_specification.rb
+   16 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/stub_specification.rb
+   17 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/delegate.rb
+   18 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/uri/rfc2396_parser.rb
+   19 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/uri/rfc3986_parser.rb
+   20 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/uri/common.rb
+   21 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/uri/generic.rb
+   22 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/uri/file.rb
+   23 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/uri/ftp.rb
+   24 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/uri/http.rb
+   25 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/uri/https.rb
+   26 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/uri/ldap.rb
+   27 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/uri/ldaps.rb
+   28 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/uri/mailto.rb
+   29 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/uri.rb
+   30 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/specification_policy.rb
+   31 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/util/list.rb
+   32 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/stringio.so
+   33 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/specification.rb
+   34 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/exceptions.rb
+   35 <dir_path>/Ruby26-x64/lib/ruby/site_ruby/2.6.0/ruby_installer/runtime/singleton.rb
+   36 <dir_path>/Ruby26-x64/lib/ruby/site_ruby/2.6.0/ruby_installer/runtime.rb
+   37 <dir_path>/Ruby26-x64/lib/ruby/site_ruby/2.6.0/ruby_installer/runtime/msys2_installation.rb
+   38 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/fiddle.so
+   39 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/fiddle/function.rb
+   40 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/fiddle/closure.rb
+   41 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/fiddle.rb
+   42 <dir_path>/Ruby26-x64/lib/ruby/site_ruby/2.6.0/ruby_installer/runtime/dll_directory.rb
+   43 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/enc/utf_16le.so
+   44 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/enc/trans/utf_16_32.so
+   45 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/defaults/operating_system.rb
+   46 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/util.rb
+   47 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/bundler_version_finder.rb
+   48 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/dependency.rb
+   49 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/core_ext/kernel_gem.rb
+   50 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/monitor.rb
+   51 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb
+   52 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/core_ext/kernel_warn.rb
+   53 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems.rb
+   54 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/path_support.rb
+   55 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/version.rb
+   56 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb
+   57 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/levenshtein.rb
+   58 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/jaro_winkler.rb
+   59 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/spell_checker.rb
+   60 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/spell_checkers/name_error_checkers/class_name_checker.rb
+   61 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/spell_checkers/name_error_checkers/variable_name_checker.rb
+   62 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/spell_checkers/name_error_checkers.rb
+   63 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/spell_checkers/method_name_checker.rb
+   64 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/spell_checkers/key_error_checker.rb
+   65 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/spell_checkers/null_checker.rb
+   66 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/formatters/plain_formatter.rb
+   67 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean.rb
+   68 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/tsort.rb
+   69 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/request_set/gem_dependency_api.rb
+   70 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/request_set/lockfile/parser.rb
+   71 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/request_set/lockfile/tokenizer.rb
+   72 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/request_set/lockfile.rb
+   73 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/request_set.rb
+   74 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/molinillo/lib/molinillo/gem_metadata.rb
+   75 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/molinillo/lib/molinillo/errors.rb
+   76 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/set.rb
+   77 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/molinillo/lib/molinillo/dependency_graph/action.rb
+   78 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/molinillo/lib/molinillo/dependency_graph/add_edge_no_circular.rb
+   79 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/molinillo/lib/molinillo/dependency_graph/add_vertex.rb
+   80 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/molinillo/lib/molinillo/dependency_graph/delete_edge.rb
+   81 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/molinillo/lib/molinillo/dependency_graph/detach_vertex_named.rb
+   82 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/molinillo/lib/molinillo/dependency_graph/set_payload.rb
+   83 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/molinillo/lib/molinillo/dependency_graph/tag.rb
+   84 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/molinillo/lib/molinillo/dependency_graph/log.rb
+   85 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/molinillo/lib/molinillo/dependency_graph/vertex.rb
+   86 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/molinillo/lib/molinillo/dependency_graph.rb
+   87 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/molinillo/lib/molinillo/state.rb
+   88 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/molinillo/lib/molinillo/modules/specification_provider.rb
+   89 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/molinillo/lib/molinillo/delegates/resolution_state.rb
+   90 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/molinillo/lib/molinillo/delegates/specification_provider.rb
+   91 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/molinillo/lib/molinillo/resolution.rb
+   92 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/molinillo/lib/molinillo/resolver.rb
+   93 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/molinillo/lib/molinillo/modules/ui.rb
+   94 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/molinillo/lib/molinillo.rb
+   95 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/molinillo.rb
+   96 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/activation_request.rb
+   97 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/conflict.rb
+   98 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/dependency_request.rb
+   99 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/requirement_list.rb
+  100 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/stats.rb
+  101 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/set.rb
+  102 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/api_set.rb
+  103 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/composed_set.rb
+  104 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/best_set.rb
+  105 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/current_set.rb
+  106 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/git_set.rb
+  107 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/index_set.rb
+  108 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/installer_set.rb
+  109 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/lock_set.rb
+  110 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/vendor_set.rb
+  111 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/source_set.rb
+  112 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/specification.rb
+  113 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/spec_specification.rb
+  114 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/api_specification.rb
+  115 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/git_specification.rb
+  116 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/index_specification.rb
+  117 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/installed_specification.rb
+  118 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/local_specification.rb
+  119 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/lock_specification.rb
+  120 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver/vendor_specification.rb
+  121 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/resolver.rb
+  122 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/source/git.rb
+  123 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/source/installed.rb
+  124 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/source/specific_file.rb
+  125 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/source/local.rb
+  126 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/source/lock.rb
+  127 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/source/vendor.rb
+  128 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rubygems/source.rb
+  129 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/version.rb
+  130 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/fileutils/version.rb
+  131 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/etc.so
+  132 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/fileutils.rb
+  133 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/singleton.rb
+  134 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/optparse.rb
+  135 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/ostruct.rb
+  136 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/ext/core.rb
+  137 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/ext/string.rb
+  138 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/win32.rb
+  139 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/linked_list.rb
+  140 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/cpu_counter.rb
+  141 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/scope.rb
+  142 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/task_argument_error.rb
+  143 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/rule_recursion_overflow_error.rb
+  144 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/task_manager.rb
+  145 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/cloneable.rb
+  146 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/file_utils.rb
+  147 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/file_utils_ext.rb
+  148 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/file_list.rb
+  149 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/promise.rb
+  150 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/thread_pool.rb
+  151 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/private_reader.rb
+  152 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/thread_history_display.rb
+  153 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/trace_output.rb
+  154 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/application.rb
+  155 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/rake_module.rb
+  156 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/pseudo_status.rb
+  157 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/task_arguments.rb
+  158 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/invocation_chain.rb
+  159 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/invocation_exception_mixin.rb
+  160 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/task.rb
+  161 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/early_time.rb
+  162 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/file_task.rb
+  163 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/file_creation_task.rb
+  164 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/multi_task.rb
+  165 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/dsl_definition.rb
+  166 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/default_loader.rb
+  167 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/late_time.rb
+  168 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/name_space.rb
+  169 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/backtrace.rb
+  170 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake.rb
+  171 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/version.rb
+  172 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/server.rb
+  173 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/autoload.rb
+  174 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/config.rb
+  175 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/core_ext/array.rb
+  176 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/core_ext/file.rb
+  177 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/core_ext/hash.rb
+  178 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/core_ext/insertion.rb
+  179 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/core_ext/module.rb
+  180 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/core_ext/string.rb
+  181 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/core_ext/symbol_hash.rb
+  182 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/rubygems/backports/gem.rb
+  183 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/rubygems/backports/source_index.rb
+  184 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/rubygems/backports.rb
+  185 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/globals.rb
+  186 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/versions.rb
+  187 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/exception.rb
+  188 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/syntax_error.rb
+  189 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/psych.so
+  190 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/omap.rb
+  191 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/set.rb
+  192 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/class_loader.rb
+  193 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/strscan.so
+  194 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/scalar_scanner.rb
+  195 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/nodes/node.rb
+  196 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/nodes/stream.rb
+  197 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/nodes/document.rb
+  198 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/nodes/sequence.rb
+  199 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/nodes/scalar.rb
+  200 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/nodes/mapping.rb
+  201 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/nodes/alias.rb
+  202 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/nodes.rb
+  203 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/streaming.rb
+  204 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/visitors/visitor.rb
+  205 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/visitors/to_ruby.rb
+  206 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/visitors/emitter.rb
+  207 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/handler.rb
+  208 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/tree_builder.rb
+  209 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/visitors/yaml_tree.rb
+  210 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/json/ruby_events.rb
+  211 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/visitors/json_tree.rb
+  212 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/visitors/depth_first.rb
+  213 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/visitors.rb
+  214 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/parser.rb
+  215 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/coder.rb
+  216 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/core_ext.rb
+  217 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/stream.rb
+  218 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/json/yaml_events.rb
+  219 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/json/tree_builder.rb
+  220 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/json/stream.rb
+  221 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych/handlers/document_stream.rb
+  222 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/psych.rb
+  223 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/yaml.rb
+  224 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/digest.so
+  225 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/digest.rb
+  226 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/digest/sha1.so
+  227 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/options.rb
+  228 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template_options.rb
+  229 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/cli/command.rb
+  230 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/cli/yardopts_command.rb
+  231 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/cli/yardoc.rb
+  232 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/gem_index.rb
+  233 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/logger.rb
+  234 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/logging.rb
+  235 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/cucumber-core-3.0.0/lib/cucumber/core/platform.rb
+  236 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/cucumber-3.0.2/lib/cucumber/platform.rb
+  237 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gherkin-4.1.3/lib/gherkin/ast_node.rb
+  238 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gherkin-4.1.3/lib/gherkin/ast_builder.rb
+  239 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/json/version.rb
+  240 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/json/generic_object.rb
+  241 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/json/common.rb
+  242 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/json/ext/parser.so
+  243 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/json/ext/generator.so
+  244 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/json/ext.rb
+  245 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/json.rb
+  246 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gherkin-4.1.3/lib/gherkin/dialect.rb
+  247 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gherkin-4.1.3/lib/gherkin/errors.rb
+  248 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gherkin-4.1.3/lib/gherkin/token_matcher.rb
+  249 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gherkin-4.1.3/lib/gherkin/token.rb
+  250 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gherkin-4.1.3/lib/gherkin/gherkin_line.rb
+  251 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gherkin-4.1.3/lib/gherkin/token_scanner.rb
+  252 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gherkin-4.1.3/lib/gherkin/parser.rb
+  253 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard-cucumber/version.rb
+  254 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/code_objects/namespace_mapper.rb
+  255 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/code_objects/base.rb
+  256 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/code_objects/cucumber/base.rb
+  257 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/code_objects/namespace_object.rb
+  258 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/code_objects/constant_object.rb
+  259 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/docstring_parser.rb
+  260 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/docstring.rb
+  261 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/registry.rb
+  262 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/registry_store.rb
+  263 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/code_objects/module_object.rb
+  264 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/code_objects/root_object.rb
+  265 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/code_objects/proxy.rb
+  266 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/code_objects/cucumber/namespace_object.rb
+  267 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/code_objects/cucumber/feature.rb
+  268 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/code_objects/cucumber/scenario_outline.rb
+  269 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/code_objects/cucumber/scenario.rb
+  270 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/code_objects/cucumber/step.rb
+  271 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/code_objects/cucumber/tag.rb
+  272 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/cucumber/city_builder.rb
+  273 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/code_objects/step_transformer.rb
+  274 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/code_objects/step_definition.rb
+  275 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/code_objects/step_transform.rb
+  276 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/parser/base.rb
+  277 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/ripper.so
+  278 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/ripper/core.rb
+  279 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/ripper/lexer.rb
+  280 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/ripper/filter.rb
+  281 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/ripper/sexp.rb
+  282 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/ripper.rb
+  283 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/parser/ruby/ast_node.rb
+  284 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/parser/ruby/ruby_parser.rb
+  285 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/parser/ruby/legacy/ruby_parser.rb
+  286 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/parser/c/c_parser.rb
+  287 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/parser/source_parser.rb
+  288 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/parser/cucumber/feature.rb
+  289 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/base.rb
+  290 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/processor.rb
+  291 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/handlers/cucumber/base.rb
+  292 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/handlers/cucumber/feature_handler.rb
+  293 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/base.rb
+  294 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/handlers/step_definition_handler.rb
+  295 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/handlers/step_transform_handler.rb
+  296 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/struct_handler_methods.rb
+  297 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/constant_handler.rb
+  298 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/handlers/constant_transform_handler.rb
+  299 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/e2mmap.rb
+  300 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/irb/output-method.rb
+  301 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/irb/notifier.rb
+  302 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/parser/ruby/legacy/irb/slex.rb
+  303 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/parser/ruby/legacy/ruby_lex.rb
+  304 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/legacy/base.rb
+  305 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/handlers/legacy/step_definition_handler.rb
+  306 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/handlers/legacy/step_transform_handler.rb
+  307 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/helpers/base_helper.rb
+  308 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/templates/helpers/base_helper.rb
+  309 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/server/adapter.rb
+  310 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/server/adapter.rb
+  311 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/server/commands/base.rb
+  312 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/server/commands/library_command.rb
+  313 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/server/commands/list_command.rb
+  314 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/server/commands/list_command.rb
+  315 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/server/static_caching.rb
+  316 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/server/router.rb
+  317 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard/server/router.rb
+  318 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/engine.rb
+  319 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/socket.so
+  320 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/io/wait.so
+  321 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/socket.rb
+  322 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/tmpdir.rb
+  323 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/tempfile.rb
+  324 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/webrick/httputils.rb
+  325 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/server/commands/static_file_helpers.rb
+  326 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/server/commands/static_file_command.rb
+  327 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-cucumber-4.0.0/lib/yard-cucumber.rb
+  328 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard.rb
+  329 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/lib/rake/tasklib.rb
+  330 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/rake/yardoc_task.rb
+  331 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/verifier.rb
+  332 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/serializers/base.rb
+  333 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/serializers/file_system_serializer.rb
+  334 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/code_objects/extra_file_object.rb
+  335 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/i18n/text.rb
+  336 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/i18n/locale.rb
+  337 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/tags/tag.rb
+  338 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/tags/overload_tag.rb
+  339 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/tags/directives.rb
+  340 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/tags/library.rb
+  341 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/helpers/markup_helper.rb
+  342 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/version.rb
+  343 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/i18n/text.rb
+  344 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/i18n.rb
+  345 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc.rb
+  346 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markup.rb
+  347 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markup/formatter.rb
+  348 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markup/to_joined_paragraph.rb
+  349 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markdown/entities.rb
+  350 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markdown/literals.rb
+  351 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markdown.rb
+  352 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/cgi/core.rb
+  353 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/cgi/escape.so
+  354 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/cgi/util.rb
+  355 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/cgi/cookie.rb
+  356 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/cgi.rb
+  357 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/rd.rb
+  358 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markup/parser.rb
+  359 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markup/pre_process.rb
+  360 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/tom_doc.rb
+  361 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/text.rb
+  362 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markup/to_html.rb
+  363 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/helpers/markup/rdoc_markup.rb
+  364 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/helpers/markup/rdoc_markdown.rb
+  365 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/serializers/yardoc_serializer.rb
+  366 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/exception_handler.rb
+  367 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/mixin_handler.rb
+  368 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/extend_handler.rb
+  369 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/module_function_handler.rb
+  370 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/decorator_handler_methods.rb
+  371 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/private_class_method_handler.rb
+  372 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/private_constant_handler.rb
+  373 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/dsl_handler_methods.rb
+  374 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/dsl_handler.rb
+  375 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/visibility_handler.rb
+  376 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/method_condition_handler.rb
+  377 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/public_class_method_handler.rb
+  378 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/yield_handler.rb
+  379 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/common/method_handler.rb
+  380 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/method_handler.rb
+  381 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/alias_handler.rb
+  382 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/attribute_handler.rb
+  383 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/class_handler.rb
+  384 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/module_handler.rb
+  385 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/class_condition_handler.rb
+  386 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/class_variable_handler.rb
+  387 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/handlers/ruby/comment_handler.rb
+  388 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/tags/default_factory.rb
+  389 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/registry_resolver.rb
+  390 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/code_objects/class_object.rb
+  391 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/code_objects/class_variable_object.rb
+  392 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/code_objects/extended_method_object.rb
+  393 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/code_objects/macro_object.rb
+  394 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/code_objects/method_object.rb
+  395 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/tags/ref_tag_list.rb
+  396 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/enc/trans/single_byte.so
+  397 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/erb.rb
+  398 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/erb_cache.rb
+  399 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/helpers/method_helper.rb
+  400 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/template.rb
+  401 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/helpers/module_helper.rb
+  402 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/helpers/html_syntax_highlight_helper.rb
+  403 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/helpers/html_helper.rb
+  404 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/helpers/text_helper.rb
+  405 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/helpers/uml_helper.rb
+  406 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/templates/section.rb
+  407 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markup/attribute_manager.rb
+  408 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markup/attributes.rb
+  409 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markup/raw.rb
+  410 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markup/paragraph.rb
+  411 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markup/heading.rb
+  412 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markup/document.rb
+  413 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markup/list_item.rb
+  414 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markup/list.rb
+  415 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markup/verbatim.rb
+  416 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/pathname.so
+  417 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/pathname.rb
+  418 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/options.rb
+  419 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/find.rb
+  420 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32/date_core.so
+  421 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/date.rb
+  422 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/time.rb
+  423 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/generator.rb
+  424 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/code_object.rb
+  425 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/method_attr.rb
+  426 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/context.rb
+  427 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/class_module.rb
+  428 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/context/section.rb
+  429 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/top_level.rb
+  430 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/generator/markup.rb
+  431 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/generator/darkfish.rb
+  432 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/generator/ri.rb
+  433 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/generator/pot/message_extractor.rb
+  434 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/generator/pot/po.rb
+  435 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/generator/pot/po_entry.rb
+  436 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/generator/pot.rb
+  437 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/rdoc.rb
+  438 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markup/hard_break.rb
+  439 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markup/attr_span.rb
+  440 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markup/to_label.rb
+  441 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/cross_reference.rb
+  442 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markup/attr_changer.rb
+  443 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markup/regexp_handling.rb
+  444 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/parser/text.rb
+  445 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/parser/simple.rb
+  446 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/parser/c.rb
+  447 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/parser/changelog.rb
+  448 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/parser/markdown.rb
+  449 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/parser/rd.rb
+  450 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/parser/ripper_state_lex.rb
+  451 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/token_stream.rb
+  452 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/parser/ruby_tools.rb
+  453 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/parser/ruby.rb
+  454 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/parser.rb
+  455 <dir_path>/Ruby26-x64/lib/ruby/gems/2.6.0/gems/yard-0.9.25/lib/yard/parser/ruby/token_resolver.rb
+  456 <dir_path>/Ruby26-x64/lib/ruby/2.6.0/rdoc/markup/blank_line.rb
+
+[NOTE]
+You may have encountered a bug in the Ruby interpreter or extension libraries.
+Bug reports are welcome.
+For details: https://www.ruby-lang.org/bugreport.html
+
+
+This application has requested the Runtime to terminate it in an unusual way.
+Please contact the application's support team for more information.
